@@ -1,4 +1,4 @@
-use Text::Names qw/samePerson/;
+use Text::Names::GB qw/samePerson/;
 use Test::More;
 
 ok(samePerson('Dave Bourget','David Bourget'),'Dave Bourget -> David Bourget');

@@ -1,4 +1,4 @@
-use Text::Names qw/abbreviationOf/;
+use Text::Names::GB qw/abbreviationOf/;
 use Test::More;
 
 ok(abbreviationOf('Dave','David'),'Dave -> David');
