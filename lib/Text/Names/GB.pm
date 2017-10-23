@@ -1,5 +1,7 @@
 package Text::Names::GB;
 
+use strict;
+
 # our @ISA = ('Text::Names');
 use Text::Names qw/
     abbreviationOf 
