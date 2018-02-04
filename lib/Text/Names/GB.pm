@@ -89,7 +89,8 @@ to be implemented as subclasses.
 
 =head2 guessGender
 
-Overrides the US tests with UK tests, that's probably true in most other countries as well.
+Overrides the US tests with UK tests,
+that's probably true in most other countries as well.
 
 =cut
 
@@ -103,6 +104,9 @@ sub guessGender {
 		return 'M';
 	}
 	if($name eq 'KAI') {
+		return 'M';
+	}
+	if($name eq 'REECE') {
 		return 'M';
 	}
 	# return $self->SUPER::guessGender($name);
