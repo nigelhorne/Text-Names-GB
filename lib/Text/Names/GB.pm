@@ -109,6 +109,24 @@ sub guessGender {
 	if($name eq 'REECE') {
 		return 'M';
 	}
+	if($name eq 'RITCHIE') {
+		return 'M';
+	}
+	if($name eq 'OLLIE') {
+		return 'M';
+	}
+	if($name eq 'BEATON') {
+		return 'M';
+	}
+	if($name eq 'CALLUM') {
+		return 'M';
+	}
+	if($name eq 'STACEY') {
+		return 'F';
+	}
+	if($name eq 'ZARA') {
+		return 'F';
+	}
 	# return $self->SUPER::guessGender($name);
 	return Text::Names::guessGender($name);
 }
@@ -155,9 +173,9 @@ L<http://search.cpan.org/dist/Text-Names-GB/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2017 Nigel Horne.
+Copyright 2017-2018 Nigel Horne.
 
-This program is released under the following licence: GPL
+This program is released under the following licence: GPL2
 
 =cut
 
