@@ -4,19 +4,19 @@ use strict;
 
 # our @ISA = ('Text::Names');
 use Text::Names qw/
-    abbreviationOf 
-    reverseName 
-    cleanParseName 
-    parseName 
-    parseName2 
-    normalizeNameWhitespace 
-    samePerson 
-    sameAuthors 
-    parseNames 
-    parseNameList 
-    cleanNames 
-    cleanName 
-    weakenings 
+    abbreviationOf
+    reverseName
+    cleanParseName
+    parseName
+    parseName2
+    normalizeNameWhitespace
+    samePerson
+    sameAuthors
+    parseNames
+    parseNameList
+    cleanNames
+    cleanName
+    weakenings
     composeName
     abbreviationOf
     setNameAbbreviations
@@ -28,27 +28,27 @@ use Text::Names qw/
     surnamePrevalence
     isMisparsed
     isLikelyMisparsed
-/; 
+/;
 
 require Exporter;
 
 our @ISA = qw(Exporter);
 
 our %EXPORT_TAGS = ( 'all' => [ qw(
-	@NAME_PREFIXES 
-    abbreviationOf 
-    reverseName 
-    cleanParseName 
-    parseName 
-    parseName2 
-    normalizeNameWhitespace 
-    samePerson 
-    sameAuthors 
-    parseNames 
-    parseNameList 
-    cleanNames 
-    cleanName 
-    weakenings 
+	@NAME_PREFIXES
+    abbreviationOf
+    reverseName
+    cleanParseName
+    parseName
+    parseName2
+    normalizeNameWhitespace
+    samePerson
+    sameAuthors
+    parseNames
+    parseNameList
+    cleanNames
+    cleanName
+    weakenings
     composeName
     abbreviationOf
     setNameAbbreviations
