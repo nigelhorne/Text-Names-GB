@@ -1,5 +1,5 @@
 use Test::More;
-use Text::Names::GB qw/isCommonSurname isCommonFirstname guessGender firstnamePrevalence surnamePrevalence isLikelyMisparsed/; 
+use Text::Names::GB qw/isCommonSurname isCommonFirstname guessGender firstnamePrevalence surnamePrevalence isLikelyMisparsed/;
 
 ok(isCommonSurname('Smith'),'No threshold test, positive');
 ok(isCommonSurname('Kennedy'),'No threshold test, positive');
