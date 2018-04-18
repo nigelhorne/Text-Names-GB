@@ -8,6 +8,7 @@ install:
   - perl -V
   - cpan App::cpanminus
   - cpanm -q -n I18N::Langinfo
+  - cpanm -q -f -n Text::Capitalize
   - cpanm -q --showdeps --with-develop --with-suggests . | findstr /v "^perl\>" | cpanm -n
   - 'echo End install at: & time /t'
 
