@@ -1,5 +1,6 @@
 package Text::Names::GB;
 
+use warnings;
 use strict;
 
 # our @ISA = ('Text::Names');
@@ -23,12 +24,12 @@ use Text::Names qw/
     getNameAbbreviations
     isCommonSurname
     isCommonFirstname
-    guessGender
     firstnamePrevalence
     surnamePrevalence
     isMisparsed
     isLikelyMisparsed
 /;
+    # guessGender
 
 require Exporter;
 
