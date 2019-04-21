@@ -73,11 +73,11 @@ Text::Names::GB - Perl extension for proper name parsing, normalization, recogni
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 =head1 SYNOPSIS
 
@@ -174,7 +174,7 @@ L<http://search.cpan.org/dist/Text-Names-GB/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2017-2018 Nigel Horne.
+Copyright 2017-2019 Nigel Horne.
 
 This program is released under the following licence: GPL2
 
