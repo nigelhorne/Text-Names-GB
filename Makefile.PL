@@ -9,9 +9,8 @@ WriteMakefile(
     VERSION_FROM      => 'lib/Text/Names/GB.pm', # finds $VERSION
     PL_FILES            => {},
     TEST_REQUIRES => {
-        'Test::More' => 0.96
-    },
-    PREREQ_PM         => {
+	'Test::Most' => 0,
+    }, PREREQ_PM         => {
         'Text::Capitalize' => 1.1,
         'Text::LevenshteinXS' => 0.03,
         'Text::Names' => 0.46,
