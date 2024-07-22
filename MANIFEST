@@ -19,3 +19,4 @@ t/links.t
 t/no404s.t
 t/pod-spelling.t
 t/rt119031.t
+t/vars.t
