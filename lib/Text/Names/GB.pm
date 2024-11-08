@@ -144,10 +144,6 @@ You can also look for information at:
 
 L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Text-Names-GB>
 
-=item * CPAN Ratings
-
-L<http://cpanratings.perl.org/d/Text-Names-GB>
-
 =item * Search CPAN
 
 L<http://search.cpan.org/dist/Text-Names-GB/>
