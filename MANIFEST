@@ -1,6 +1,4 @@
 Changes
-eof.t
-eol.t
 lib/Text/Names/GB.pm
 Makefile.PL
 MANIFEST			This list of files
