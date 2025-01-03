@@ -111,7 +111,7 @@ sub guessGender {
 		'ZARA'    => 'F'
 	);
 
-	return $gender_map{$name} if exists $gender_map{$name};
+	return $gender_map{$name} if(exists $gender_map{$name});
 
 	# Fallback to guessGender if the name is not in the map
 	# return $self->SUPER::guessGender($name);
@@ -152,7 +152,7 @@ L<http://search.cpan.org/dist/Text-Names-GB/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2017-2024 Nigel Horne.
+Copyright 2017-2025 Nigel Horne.
 
 This program is released under the following licence: GPL2
 
